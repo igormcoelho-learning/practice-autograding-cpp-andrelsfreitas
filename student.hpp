@@ -24,18 +24,3 @@ int resultado = a * b;
 return resultado;
 }
 
-int main(){
-    int valor1, valor2;
-    cout << "Digite o primeiro valor: ";
-    cin >> valor1;
-    cout << "Digite o segundo valor: ";
-    cin >> valor2;
-
-    cout << "O valor da soma eh: "<<add(valor1,valor2)<<endl;
-
-    cout << "O valor da multiplicado eh: "<<mul(valor1,valor2)<<endl;
-
-    system("pause");
-
-
-}
